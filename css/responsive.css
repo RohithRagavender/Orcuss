@@ -1,0 +1,219 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media only screen and (max-width:991px){
+	.about_content_area p{
+		font-size: 13px !important;
+	}
+	.banner_content{
+		margin-top: 140px !important;
+	}
+	.banner_social_link li a{
+		color: #fff !important;
+		border: 1px solid #fff !important;
+		width: 30px !important;
+		height: 30px !important;
+		line-height: 30px !important;
+		border-radius: 50% !important;
+		text-align: center !important;
+		display: inline-block !important;
+		font-size: 12px !important;
+		transition: .5s !important;
+	}
+	.banner_social_link li a:hover{
+		background: #fff !important;
+		border-color: #fff !important;
+		color: #ff4a57 !important;
+}
+	.banner-images img{
+		width: 80%;
+	}
+	.about_image img{
+		border: 5px solid #ff4a57 !important;
+		width: 100%;
+		margin: 20px 0px 25px 0px;
+	}
+	.ct_about{
+		font-size: 13px !important;
+	}
+	.about_details span{
+		font-size: 13px !important;
+	}
+	.single_about h4{
+		font-size: 20px !important;
+	}
+	.rs_pb_70{
+		padding-bottom: 70px !important;
+	}
+	.res_border_none{
+		border: none !important;
+	}
+	.single_counter{
+		margin-bottom: 50px;
+	}
+	.single_testimonial{
+		margin-bottom: 30px !important;
+	}
+	.single_blog .post-content{
+		margin-top: 30px;
+	}
+	.contact_widget_area{
+		margin-left: 0 !important;
+		margin-bottom: 30px;
+	}
+	
+}
+
+@media only screen and (max-width: 767px) { 
+	.main_menu{
+		display:none;
+	}
+	.navbar-default .navbar-nav>li>a{
+		padding: 5px 0;	
+		font-size: 13px !important;
+	}
+	.navbar-default .navbar-nav>li>a:hover,
+	.navbar-default .navbar-nav>li>a:focus{
+		color: #1461ff !important;		
+	}
+	.navbar-default .navbar-nav>.active>a, 
+	.navbar-default .navbar-nav>.active>a:hover,
+	.navbar-default .navbar-nav>.active>a:focus{
+		color: #f21e4e !important;
+		background-color: transparent;
+	}
+	.navbar-brand{
+		padding: 10px 0;
+		font-size: 15px;
+	}
+	.mobile-nav{
+		display: block !important;
+	}
+	.slicknav_btn {
+		background: #f21e4e;
+		border-radius: 0px;
+		margin: 0px 0 0;
+	}
+	.slicknav_menu {
+		display: block;
+		background: transparent;
+	}
+	.slicknav_nav {
+		color: #fff;
+		padding: 15px 0;
+		list-style: none;
+		overflow: hidden;
+		position: absolute;
+		top: 60px;
+		width: 350px;
+		left: auto;
+		right: -30%;
+		background: #000;
+		float: right;
+		box-shadow: -1px 1px 1px rgba(20, 97, 255, 0.1);
+	}
+	.slicknav_btn {
+		text-decoration: none;
+		text-shadow: none;
+		border-radius: 0;
+		background-color: transparent;
+	}
+	.slicknav_menu .slicknav_icon-bar {
+		width: 28px;
+		height: 3px;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0;
+		-webkit-box-shadow: 0;
+		-moz-box-shadow: 0;
+		box-shadow: 0;
+	}
+	.navbar-default.menu-shrink .slicknav_menu .slicknav_icon-bar{
+		background: #fff;
+	}
+	.section_heading h2{
+		font-size: 28px !important;
+	}
+	.banner_content h1{
+		font-size: 40px !important;
+	}
+	.banner_content p{
+		font-size: 13px !important;
+	}
+	.banner_social_link li a{
+		margin-bottom: 15px;
+	}
+	.border_left{
+		border-left: none !important;
+	}
+	.owl-nav{
+		display: none;
+	}
+	.footer{
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 480px) { 
+	.banner_content strong{
+		font-size: 18px !important;
+	}
+	.banner_content h1{
+		font-size: 22px !important;
+	}
+	.banner-images{
+		margin: -50px 0px 30px 0px !important;
+	}
+	.about_content_area{	
+		margin: 0px 0px 30px 0px !important;
+	}
+	.main_btn{
+		color: #fff !important;
+		font-size: 12px !important;
+		margin-top: 20px !important;
+		text-transform: uppercase !important;
+		padding: 15px 10px !important;
+		letter-spacing: 0.3px !important;
+		font-weight: 600 !important;
+		background: #ff4a57 !important;
+		line-height: 8px !important;
+		border: none !important;
+		-webkit-transition: all 0.4s ease-in-out !important;
+		transition: all 0.4s ease-in-out 0s !important;
+	}
+	.single-service h4{
+		font-size: 18px !important;
+	}
+	.single-service p{
+		font-size: 13px !important;
+	}
+	.work_filter ul li{
+		text-transform: uppercase !important;
+		display: inline-block !important;
+		cursor: pointer !important;
+		color: #fff !important;
+		font-size: 13px !important;
+		border-radius: 50px !important;
+		padding: 0px 0px 10px 0px !important;
+		letter-spacing: 0.5px !important;
+		background: transparent !important;
+		margin: 0px 10px 0px 0px !important;
+		font-weight: 400 !important;
+		transition: all .3s ease-in-out !important;
+	}
+	.blog-thumb h4{
+		font-size: 18px !important;
+	}
+	.blog-thumb p{
+		font-size: 13px !important;
+	}
+	.single_counter h3{
+		font-size: 25px !important;
+	}
+	.single_counter h5{
+		font-size: 14px !important;
+	}
+}
